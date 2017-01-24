@@ -29,6 +29,8 @@ repositories {
 dependencies {
 	compile('org.apache.camel:camel-spring-boot-starter:2.18.1')
     compile('org.apache.camel:camel-http:2.18.1')
+	compile('org.apache.camel:camel-jetty:2.18.1')
+	compile('org.apache.camel:camel-jackson-starter:2.18.1')
     compile('org.springframework.boot:spring-boot-starter-actuator')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
